@@ -1,0 +1,736 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_div
+{
+background-color: antiquewhite;
+	
+}
+.HHH2
+{
+	font-size: 10px;
+	margin-left: -30px;
+}
+
+
+.ho1
+{
+	
+font-size: 20px;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-top: 38px;
+	padding-left: 30px;
+}
+ 
+#nav_br ul
+{
+  list-style: none;
+	margin: 0;
+	padding: 0;
+padding-top: 30px;
+	float: right;
+}
+
+#nav_br
+{
+	margin-left: -60px;
+	height: 90px;
+}
+#nav_br li
+{
+
+            
+	float: left;
+	height: 40px;
+		width: 120px;
+
+	text-align: center;
+
+}
+
+#nav_br a
+{
+	 display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-family: Futura, Trebuchet MS, Arial, sans-serif;
+        font-size: 0.7em;
+        color: black;
+      
+        padding: 14px 20px;
+        transition: background .25s, box-shadow .15s;}
+
+
+#nav_br li a:hover
+{
+            color: #4A4860;
+            background: #FFC4EB;
+            box-shadow: 0px 4px 0px 0px #BB8EAC;
+        }
+       
+ul li ul li
+{
+	
+	display:none;
+}
+
+ul li:hover ul li
+{
+	display: block;
+	
+}
+
+
+#insta
+{
+	padding-top: 40px;
+		color: black;
+	float: right;
+		padding-left: 5px;
+
+
+}
+
+#insta1
+{
+	padding-top: 40px;
+		color: black;
+
+}
+
+#fb
+{
+	padding-top: 40px;
+	padding-left: 5px;
+	color: black;
+		float: right;
+
+}
+
+#fb1
+{
+	
+	color: black;
+}
+
+
+
+
+#yt
+{
+	padding-top: 40px;
+	padding-left: 5px;
+		color: black;
+			float: right;
+
+
+
+}
+
+#yt1
+{
+	padding-top: 40px;
+	padding-left: 5px;
+		color: black;
+
+
+}
+
+#sp
+{
+		padding-top: 40px;
+	padding-left: 5px;
+		color: black;
+			float: right;
+
+
+
+}
+
+
+#d01
+{
+	margin-top:120px;
+}
+
+#d02
+{
+	margin-left: 50px;
+	margin-top: 120px;
+}
+
+.h02
+{
+	color: #3E1919;
+	font-size: 60px;
+	padding-left: 20px;
+	margin-left: 20px;
+	font-weight: bold;
+	
+}
+.p01
+{
+	color: #3B1616;
+	margin-left: 42px;
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+#r_3
+{
+	background-color:red;
+	background-color: bisque;
+	
+	
+}
+
+.h03
+{
+	margin-top: 30px;
+	color: #221314;
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+
+.h03::before{
+	content:'';
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: #1D0808;
+	margin-top: 60px;
+	left: 50%;
+	transform: translateX(-50%);
+	animation:animate 4s linear infinite;
+}
+
+@keyframes animate
+{
+	0%
+	{
+	width: 100px;
+	}
+	
+	50%
+	{
+		width: 200px;
+	}
+	
+	100%
+	{
+		width: 100px;
+		
+	}
+	
+}
+
+
+
+#img_1
+{
+	
+	height: 200px;
+	width: 400px;
+	box-shadow: 2px 2px 4px grey;
+	border-radius: 20px;
+	cursor: pointer;
+	display: block;
+}
+
+
+#img_2
+{
+	
+	height: 200px;
+		width: 400px;
+box-shadow: 2px 2px 4px grey;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+#img_3
+{
+	
+	height: 200px;
+		width: 400px;
+	box-shadow: 2px 2px 4px grey;
+	border-radius: 20px;
+	cursor: pointer;
+
+}
+
+#img_4
+{
+	
+	height: 200px;
+			width: 400px;
+	box-shadow: 2px 2px 4px grey;
+	border-radius: 20px;
+cursor: pointer;
+}
+
+
+#img_5
+{
+	
+	height: 200px;
+			width: 400px;
+box-shadow: 2px 2px 4px grey;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+#img_6
+{
+	
+	height: 200px;
+				width: 400px;
+	box-shadow: 2px 2px 4px grey;
+	border-radius: 20px;
+	cursor: pointer;
+
+}
+#photo_gallery
+{
+	margin-top: 40px;
+}
+
+
+
+#photo_gallery1
+{
+	margin-top: 20px;
+	
+	
+}
+
+#d04
+{
+	
+	border-radius: 20px;
+	transition: 1s;
+	
+
+}
+#d04:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	
+}
+
+
+
+
+
+#d05
+{
+	
+	border-radius: 20px;
+	transition: 1s;
+	
+
+}
+#d05:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	
+}
+
+
+
+#d06
+{
+	
+	border-radius: 20px;
+	transition: 1s;
+	
+
+}
+#d06:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	
+}
+
+
+
+#d07
+{
+	
+	border-radius: 20px;
+	transition: 1s;
+	
+
+}
+#d07:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	
+}
+
+#d08
+{
+	
+	border-radius: 20px;
+	transition: 1s;
+	
+
+}
+#d08:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	
+}
+
+
+#d09
+{
+	
+	border-radius: 20px;
+	transition: 1s;
+	
+
+}
+#d09:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	
+}
+
+
+
+
+#d04 a
+{
+	color: aliceblue;
+	text-decoration: none;
+	position: absolute;
+	padding-top: 160px;
+	padding-left: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	cursor: pointer;
+	
+}
+
+#d04 a:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	color:bisque;
+	
+}
+
+
+#d05 a
+{
+	color: aliceblue;
+	text-decoration: none;
+	position: absolute;
+	padding-top: 160px;
+	padding-left: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	cursor: pointer;
+	
+}
+
+#d05 a:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	color:bisque;
+	
+}
+
+#d06 a
+{
+	color: aliceblue;
+	text-decoration: none;
+	position: absolute;
+	padding-top: 160px;
+	padding-left: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	cursor: pointer;
+	
+}
+
+#d06 a:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	color:bisque;
+	
+}
+
+
+#d07 a
+{
+	color: aliceblue;
+	text-decoration: none;
+	position: absolute;
+	padding-top: 160px;
+	padding-left: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	cursor: pointer;
+	
+}
+
+#d07 a:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	color:bisque;
+	
+}
+
+
+#d08 a
+{
+	color: aliceblue;
+	text-decoration: none;
+	position: absolute;
+	padding-top: 160px;
+	padding-left: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	cursor: pointer;
+	
+}
+
+#d08 a:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	color:bisque;
+	
+}
+
+#d09 a
+{
+	color: aliceblue;
+	text-decoration: none;
+	position: absolute;
+	padding-top: 160px;
+	padding-left: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	cursor: pointer;
+	
+}
+
+#d09 a:hover{
+	transform: scale(0.9);
+	z-index: 2;
+	color:bisque;
+	
+}
+
+
+
+#d_5
+{
+	margin-top: 100px;
+	background-image:url(pexels-piotr-arnoldes-6025811.gif);
+		background-position: center;
+	background-size:cover;
+
+	
+	background-attachment: fixed;
+
+
+}
+
+#bg1
+{
+	background-image: url(Untitled-1.png);
+	background-position:center;
+	background-attachment: fixed;
+		background-size:cover;
+	margin-top: 20px;
+
+}
+
+#arrow
+{
+	margin-left: 150px;
+	color: black;
+}
+
+#s_12
+{
+	height: 10vh;
+}
+
+.h10
+{
+	
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 150px;
+	
+}
+
+#s_13
+{
+	height: 10vh;
+}
+
+
+.p10
+{
+	
+		color: white;
+	font-weight: 200;
+	font-size: 20px;
+	
+	
+	
+}
+
+#d11
+{
+	margin-top: 20px;
+}
+
+#d12
+{
+	
+	margin-top: 20px;
+}
+
+#space
+{
+	height: 10vh;
+}
+
+
+.hh1
+{
+	font-size: 20px;
+	margin-left: -30px;
+	margin-top: 10px;
+	
+}
+
+
+
+
+
+
+
+#t1
+{
+	height: 50px;
+	padding-left: 10px;
+	border: none;
+	outline: none;
+width: 60%;	
+}
+
+#b1{
+	height: 50px;
+	border: none;
+	outline: none;
+	background-color: bisque;
+	color: black;
+	font-weight: bold;
+	
+}
+
+#b1:hover
+{
+	
+		transform: scale(0.9);
+
+	
+}
+
+#d0_7
+{
+	
+	margin-top: 100px;
+
+	
+}
+
+.s01
+{
+	color: coral;
+	text-decoration: underline;
+	font-weight: bold;
+	
+	
+}
+
+#dd2
+{
+	margin-top: 80px;
+}
+
+/*
+#r_10
+{
+	margin-top: 50px;
+}
+*/
+
+#dd1
+{
+	background-color: blanchedalmond;
+		box-shadow: 2px 2px 4px grey;
+
+}
+
+
+.he1
+{
+	font-size: 30px;
+	font-weight: 800;
+}
+
+
+.he2{
+	font-size: 25px;
+	font-weight: bold;
+		color: red;
+
+}
+
+#img_01
+{
+	height: 200px;
+	margin-top: 80px;
+	box-shadow: 2px 2px 4px black;
+	border-radius: 20px;
+
+
+}
+
+.hhh1
+{
+	color: white;
+}
+
+.hhh2
+{
+	color: white;
+}
+
+#bg3
+{
+	margin-top: 80px;
+}

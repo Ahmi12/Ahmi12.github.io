@@ -1,0 +1,39 @@
+#nav_br ul
+{
+  list-style: none;
+    display: flex;
+    flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+	
+}
+
+#nav_br li
+{
+display: none;
+            display: block;
+
+}
+
+#nav_br a
+{
+	 display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-family: Futura, Trebuchet MS, Arial, sans-serif;
+        font-size: 0.7em;
+        color: black;
+        text-align: center;
+        padding: 14px 30px;
+        transition: background .25s, box-shadow .15s;}
+
+
+#nav_br li a:hover
+{
+            color: #4A4860;
+            background: #FFC4EB;
+            box-shadow: 0px 4px 0px 0px #BB8EAC;
+        }

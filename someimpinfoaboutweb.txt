@@ -1,0 +1,26 @@
+https://www.bootstrapcdn.com/fontawesome/
+
+yha sai link copy krke dalenege apne head mai
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+font awsome icon
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+https://fontawesome.com/v4/icons/
+
+search counter.js
+https://github.com/tombruijn/counter.js/
+https://github.com/bfintal/Counter-Up
+
+
+
+google fonts
+https://fonts.google.com/specimen/Poppins?query=po
+
+how to import map in html
+seaarch google map 
+select the location and goto the embeded option and copy the html code and paste to ur html file
+
+
+nav bar colors
+----------------
